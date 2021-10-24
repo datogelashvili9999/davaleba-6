@@ -30,12 +30,12 @@
 }
 
 .rear hover {
-	width: 700px;
+	
 } 
 
 @keyframes previous{
 	from{top: 70%; left: 42%; }
-	to{top: 85%; left: 25%;
+	to{top: 85%; left: 23%;
 	width: 370px;}
 
 }

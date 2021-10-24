@@ -1,0 +1,49 @@
+.relative{
+	width: 1349;
+	height: 334;
+}
+
+.way-background{
+	position: relative;
+	width: 100%; 
+}
+
+.previous-img{
+	position: absolute;
+	width: 110px;
+	top: 70% ;
+	left: 44%;
+	animation: previous 6s; 
+	animation-iteration-count: infinite;
+	transition: all 3s linear;
+
+}
+
+.rear-img{
+	position: absolute;
+	width: 600px;
+	top: 95%;
+	right: 15%;
+	animation: rear 6s infinite ;
+	transition: all 1s  ease;
+
+}
+
+.rear hover {
+	width: 700px;
+} 
+
+@keyframes previous{
+	from{top: 70%; left: 42%; }
+	to{top: 85%; left: 25%;
+	width: 370px;}
+
+}
+
+@keyframes rear{
+	from{top: 95%; right: 15%; }
+	to{top: 68%; right: 40%;
+	width: 180px;}
+
+}
+
